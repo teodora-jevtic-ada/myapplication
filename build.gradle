@@ -54,7 +54,7 @@ publishing {
             def props = new Properties()
             props.load(new FileInputStream(propsFile))
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/teodora-jevtic-ada/myLib")
+            url = uri("https://maven.pkg.github.com/teodora-jevtic-ada/myapplication")
             credentials {
                 username props['username']
                 password props['token']
